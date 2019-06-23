@@ -5,54 +5,265 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-            nav {
-            font-size: 120%; 
-            font-family: Verdana, Arial, Helvetica, sans-serif; 
-            color: #d81d1d;
-            }
-            </style>
-    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="description" lang="ua" content="Описание содержимого">
+    <meta name="description" lang="en" content="Description of site">
+    <meta name="keywords" lang="ua" content="Ключевые слова">
+    <meta name="keywords" lang="en" content="Key words">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/blog.css">
+
 </head>
 
 <body>
-    <nav>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <span class="logo"><a href="#" title="First Blog"></a></span>
         <ul>
-            <li>
-                <a hrev="index.html">Home</a>
-            </li>
-            <Li>
-                <a hrev="about.html">About</a>
-            </Li>
-            <Li>
-                <a hrev="feedback.html">Contact Us</a>
-            </Li>
-            <Li>
-                <a hrev="blog.html">Blog</a>
-            </Li>
+            <li><a href="index.html">Home</a></li>
+            <Li><a href="about.html">About</a></Li>
+            <Li><a href="feedback.html">Contact Us</a></Li>
+            <Li><a href="blog.html">Blog</a></Li>
+        </ul>        
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Header -->
+<header id="top" class="header">
+    <div class="raw">
+        <div class="header-content">
+            <h1 id="logo-text">First Blog</h1>
+            <p id="intro">Slogan & first info</p>
+        </div>
+    </div>
+</header>
+<!-- End Header-->
+
+<div class="container">
+    <!-- Content -->
+    <main class="main">
+        <!--articles-->
+        <!--blog-post-->
+        <article class="blog-post">
+            <header>
+                <h2><a href="post.html" title="Hey! We love all interesting things"></a></h2>
+            
+                <div class="blog-post--meta">
+                        <ul>
+                            <li>July 12, 2019</li>
+                            <span class="meta-sep">&bull;</span>
+                            <li><a href="#" title="" rel="category tag">Ghost</a></li>
+                            <span class="meta-sep">&bull;</span>
+                            <li>John Doe</li>
+                        </ul>
+                    </div>
+                        
+            </header>
+
+            <div class="blog-post--content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aperiam delectus laudantium ea dolor voluptatum id accusamus. Placeat, atque impedit nihil adipisci architecto dolorem ea explicabo voluptatem, iure esse reiciendis.</p>
+            </div>
+
+        </article>
+        <!-- end blog-post -->
+        <!-- blog-post -->
+
+        <article class="blog-post">
+
+                <header>
+
+                    <h2><a href="post.html" title="">We All Love Good Typography.</a></h2>
+
+                    <div class="blog-post--meta">
+                        <ul>
+                            <li>July 11, 2019</li>
+                            <span class="meta-sep">&bull;</span>
+                            <li>
+                                <a href="#" title="" rel="category tag">Wordpress</a>,
+                                <a href="#" title="" rel="category tag">Ghost</a>
+                            </li>
+                            <span class="meta-sep">&bull;</span>
+                            <li>Jane Doe</li>
+                        </ul>
+                    </div>
+
+                </header>
+
+                <div class="blog-post--content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum a repellendus obcaecati quibusdam! Sint, exercitationem ad. Dolore accusantium, reiciendis facilis blanditiis, mollitia rem doloremque earum, tenetur laudantium consequuntur obcaecati deleniti!</p>
+                </div>
+                
+            </article>
+            <!-- end blog-post -->
+            <!-- blog-post -->
+
+            <article class="blog-post">
+                    <header>
+                        <h2><a href="post.html" title="">Sample blog post</a></h2>
+                        <p class="blog-post--meta"><time datetime="2019-01-25T12:00">January 25, 2019 </time> by <a href="#">Janus</a></p>
+                    </header>
+    
+                    <div class="blog-post--content">
+    
+    
+                        <p>Lorem ipsum dolor sit amet, <em>consectetur adipisicing elit.</em> Dolorem neque dolorum modi omnis illum optio ut adipisci obcaecati quae, non, labore odit sunt qui sequi excepturi nostrum libero porro at!</p>
+                                            
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas harum maxime eum. Corrupti alias provident assumenda doloremque, recusandae eius quidem non voluptate molestiae totam ducimus quas quaerat, ad at incidunt.</p>
+                    </div>
+
+                </article>
+                <!-- end blog-post -->
+                <!-- blog-post -->
+
+                <article class="blog-post">
+                    
+                    <header>
+                        <h2>The Best Street Style Looks of Kyiv Fashion Week</h2>
+                        <div class="blog-post--meta">
+                            <span>by <a href="#">Janus</a></span> / <span><i class="fa fa-clock-o"></i><time
+                                    datetime="2019-01-25T12:00">January
+                                    25, 2019 </time></span> / <span><i class="fa fa-comment-o"></i> <a
+                                    href="#">343</a></span>
+                        </div>
+
+                    </header>
+                    
+                    <div class="blog-post-content">
+                            <div class="blog-post--image">
+                                    <a href="post.html"><img src="images/01.jpg" alt="" class='float-left'></a>
+                                </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea aliquam voluptas tempora dolore possimus earum reiciendis quaerat doloribus, voluptatibus, perspiciatis ut quibusdam vero molestiae unde deleniti facere blanditiis obcaecati. Architecto.
+                            ew months ago, we found ridiculously cheap plane tickets for Boston and off we went. It was our first visit to the city and, believe it or not, Stockholm in February was more pleasant than Boston in March. It probably has a lot to do with the fact that we arrived completely unprepared. That I, in my converse and thin jacket, did not end up with pneumonia is honestly not even fair.
+                        </p>
+                        <button class="read-more"><a href="#">Continue Reading</a></button>
+                    </div>
+
+                </article>
+                <!-- end blog-post -->
+                <!-- blog-post -->
+
+                <article class="blog-post">
+                    <header>
+                        <h2>The Best Street Style Looks of Kyiv Fashion Week</h2>
+                        <div class="blog-post-meta">
+                            <span>by <a href="#">Janus</a></span> / <span><i class="fa fa-clock-o"></i><time
+                                    datetime="2019-01-25T12:00">January
+                                    25, 2019 </time></span> / <span><i class="fa fa-comment-o"></i> <a
+                                    href="#">343</a></span>
+                        </div>
+                    </header>
+                    
+                    <div class="blog-post--content">
+                            <div class="blog-post--image">
+                                    <a href="post.html"><img src="images/02.jpg" alt="" class='float-right'></a>
+                                </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum incidunt deserunt explicabo sunt, alias esse ea non tempora aperiam. Fugiat ut repellendus soluta dignissimos optio praesentium! Quisquam blanditiis expedita consectetur!
+                        </p>
+                        <button class="read-more"><a href="#">Continue Reading</a></button> 
+                    </div>
+                </article>
+                <!-- end blog-post -->
+                <!-- End Articles -->
+    
+                <div class="pagenav">
+                    <p>
+                        <a rel="prev" href="#">Prev</a>
+                        <a rel="next" href="#">Next</a>
+                    </p>
+                </div>
+    
+            </main>
+            <!-- End Content -->
+            <!-- Sidebar -->
+
+    </main>
+    <aside class="sidebar">
+
+            <div class="widget widget-search">
+                <h3>Search</h3>
+                <form action="#">
+                    <input type="text" value="Search here..." class="text-search">
+                </form>
+            </div>
+
+            <div class="widget widget-categories">
+                <h3>Categories.</h3>
+                <ul>
+                    <li><a href="#" title="">Wordpress</a> (2)</li>
+                    <li><a href="#" title="">Ghost</a> (14)</li>
+                    <li><a href="#" title="">Joomla</a> (5)</li>
+                    <li><a href="#" title="">Drupal</a> (3)</li>
+                    <li><a href="#" title="">Magento</a> (2)</li>
+                    <li><a href="#" title="">Uncategorized</a> (9)</li>
+                </ul>
+            </div>
+
+            <div class="widget widget-text">
+                <h3>Widget Text.</h3>
+
+                <p>Lorem ipsum Ullamco commodo laboris sit dolore commodo aliquip incididunt fugiat esse dolor aute
+                    fugiat minim eiusmod do velit labore fugiat officia ad sit culpa labore in consectetur sint cillum
+                    sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.</p>
+
+            </div>
+
+            <div class="widget widget-tags">
+                <h3>Post Tags.</h3>
+
+                <div class="tagcloud group">
+                    <a href="#">Corporate</a>
+                    <a href="#">Onepage</a>
+                    <a href="#">Agency</a>
+                    <a href="#">Multipurpose</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Landing Page</a>
+                    <a href="#">Resume</a>
+                </div>
+
+            </div>
+
+            <div class="widget widget-popular">
+                <h3>Popular Post.</h3>
+
+                <ul class="link-list">
+                    <li><a href="#">Sint cillum consectetur voluptate.</a></li>
+                    <li><a href="#">Lorem ipsum Ullamco commodo.</a></li>
+                    <li><a href="#">Fugiat minim eiusmod do.</a></li>
+                </ul>
+
+            </div>
+
+        </aside>
+        <!-- End Sidebar -->
+
+    </div>
+    <div class="cf"></div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-reddit"></i></a>
+        </div>
+
+        <ul class="copyright">
+            <li>Copyright &copy; 2020 Copyright Holder All Rights Reserved.</li>
+            <li>Design: <a href="#">Alex Oryshych</a></li>
+            <li><address>NAU, Kyiv, Ukraine </address></li>
         </ul>
 
-    </nav>
+        
+    </footer>
+    <!-- End Footer-->
 
-<article>
-    <h2>Blog Post 1</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium repellendus iste distinctio! Voluptas vero iusto eius minus quod quisquam vel, expedita dignissimos, mollitia harum nostrum id rerum a molestias.</div>
-</article>
-<article>
-    <h2>Blog Post 2</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium repellendus iste distinctio! Voluptas vero iusto eius minus quod quisquam vel, expedita dignissimos, mollitia harum nostrum id rerum a molestias.</div>
-</article>
-<article>
-    <h2>Blog Post 3</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium repellendus iste distinctio! Voluptas vero iusto eius minus quod quisquam vel, expedita dignissimos, mollitia harum nostrum id rerum a molestias.</div>
-</article>
-<article>
-    <h2>Blog Post 4</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium repellendus iste distinctio! Voluptas vero iusto eius minus quod quisquam vel, expedita dignissimos, mollitia harum nostrum id rerum a molestias.</div>
-</article>
-<article>
-    <h2>Blog Post 5</h2>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium repellendus iste distinctio! Voluptas vero iusto eius minus quod quisquam vel, expedita dignissimos, mollitia harum nostrum id rerum a molestias.</div>
-</article>
+    <script src="" async defer></script>
 </body>
+
 </html>
