@@ -63,14 +63,6 @@
     background-image: url(../images/bg.jpg);
 }
 
-/* container */
-/* 
-.container {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 /* wrapper */
 
 .wrapper {
@@ -89,6 +81,7 @@
 .wrapper.special-alt {
     text-align: center;
 }
+
 
 /* special */
 
@@ -122,7 +115,6 @@ header.major {
 footer.major {
     padding-top: 2em;
 }
-
 /* order */
 
 #order {
@@ -136,7 +128,7 @@ footer.major {
     margin-bottom: 2em;
 }
 
-/* list */
+/* List */
 
 ul.buttons li {
     display: block;
@@ -152,7 +144,7 @@ ul.buttons li {
     padding: 0 0 0 1.5em;
 }
 
-/* button */
+/* Button */
 
 .wrapper.style2 .button.special {
     border-color: #fff;
@@ -164,6 +156,8 @@ ul.buttons li {
     border-color: #229922;
     color: #fff !important;
 }
+
+
 .button {
     border: solid 1px;
     color: inherit;
@@ -183,6 +177,8 @@ ul.buttons li {
     border-color: inherit;
 }
 
+
+
 .button.special:hover {
     background: #aea222 !important;
     border-color: #9e9136 !important;
@@ -197,13 +193,15 @@ ul.buttons li {
     color: #fff !important;
 }
 
-.wrapper.style2.special-alt{
+
+
+/* .wrapper.style2.special-alt{
     background-color: #025a1ff1;
     background-image: url("../images/overlay.png");
     background-size: cover;
 	color: #fff;
 	font-size: 1.5em;
-}
+} */
 
 header.special .icon {
     cursor: default;
@@ -218,3 +216,4 @@ header.special .icon:before {
     font-size: 3.5em;
     opacity: 0.35;
 }
+

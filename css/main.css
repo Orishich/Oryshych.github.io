@@ -1,8 +1,11 @@
 /* main.css */
 
-/* a. Webfonts and Icon fonts */
+/* a. Webfonts and Icon fonts
+*/
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800i&display=swap&subset=cyrillic-ext");
+
+
 @import url("../fontawesome/css/all.min.css");
 
 /* b. Reset
@@ -45,6 +48,7 @@ time, mark, audio, video {
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
 }
+
 
 html {
     font-size: 16px;
@@ -100,6 +104,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 
 hr {
     border-top: solid 1px rgba(124, 128, 129, 0.2);
